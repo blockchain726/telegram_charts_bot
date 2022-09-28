@@ -7,6 +7,8 @@ import re
 def load_long_description(desc_file):
     return open(desc_file).read()
 
+def load_long_description2(desc_file):
+    return open(desc_file).read()
 
 # Load version
 def load_version(*path_parts):
